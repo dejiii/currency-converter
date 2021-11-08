@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,9 +14,21 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@assets": ["assets/"],
+      "@globalStyles": ["assets/globalStyles.ts"],
+      "@components": ["components/index.ts"],
+      "@config": ["config/index.ts"],
+      "@constants": ["constants/index.ts"],
+      "@helper": ["helper/index.ts"],
+      "@hooks": ["hooks/index.ts"],
+      "@models": ["models/index.ts"],
+      "@navigation": ["navigation/index.ts"],
+      "@screens": ["screens/index.ts"],
+      "@utils": ["utils/index.ts"]
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
