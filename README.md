@@ -10,7 +10,7 @@ This was inspired by [This Dribbble post](https://dribbble.com/shots/14562920-Su
 - TypeScript
 - Tailwind CSS
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
