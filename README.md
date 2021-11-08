@@ -1,3 +1,15 @@
+# CURRENCY CONVERTER ⭐️
+
+This was inspired by [This Dribbble post](https://dribbble.com/shots/14562920-Super-cx-Website/attachments/6252372?mode=media)
+
+![Test](https://cdn.dribbble.com/users/509287/screenshots/14562920/media/b7c9dea458b8e36fccf2aac201cd4cd9.png?compress=1&resize=1600x1200)
+
+## TECH USED
+
+- ReactJs
+- TypeScript
+- Tailwind CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
